@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:moonlife="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yazao.android.wechat.MainActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="3dp"
+        android:background="@drawable/tab_bg"
+        android:orientation="horizontal" >
+
+        <com.yazao.android.wechat.widget.ChangeColorIconWithText
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            moonlife:icon="@drawable/ic_menu_start_conversation"
+            moonlife:text="@string/app_name"
+            moonlife:text_Size="12sp"
+            moonlife:color="#ff45c01a" >
+        </com.yazao.android.wechat.widget.ChangeColorIconWithText>
+
+        <com.yazao.android.wechat.widget.ChangeColorIconWithText
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            moonlife:icon="@drawable/ic_menu_friendslist"
+            moonlife:text="@string/tab_contact"
+            moonlife:text_Size="12sp"
+            moonlife:color="#ff45c01a" >
+        </com.yazao.android.wechat.widget.ChangeColorIconWithText>
+
+        <com.yazao.android.wechat.widget.ChangeColorIconWithText
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            moonlife:icon="@drawable/ic_menu_emoticons"
+            moonlife:text="@string/tab_found"
+            moonlife:text_Size="12sp"
+            moonlife:color="#ff45c01a" >
+        </com.yazao.android.wechat.widget.ChangeColorIconWithText>
+
+        <com.yazao.android.wechat.widget.ChangeColorIconWithText
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            moonlife:icon="@drawable/ic_menu_allfriends"
+            moonlife:text="@string/tab_me"
+            moonlife:text_Size="12sp"
+            moonlife:color="#ff45c01a" >
+        </com.yazao.android.wechat.widget.ChangeColorIconWithText>
+    </LinearLayout>
+
+</LinearLayout>

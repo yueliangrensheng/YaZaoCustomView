@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yazao.android.flowlayout.MainActivity" >
+
+    <com.yazao.android.flowlayout.widget.FlowLayout
+        android:padding="20dp"
+        android:id="@+id/flowlayout"
+        android:background="#333333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.yazao.android.flowlayout.widget.FlowLayout>
+
+</RelativeLayout>

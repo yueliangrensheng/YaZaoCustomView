@@ -1,0 +1,17 @@
+include ':CustomView:WeChat6.0',
+        ':CustomView:HorizontalScrollView',
+        ':CustomView:WebViewWithProgressBar',
+        ':CustomView:RecyclerViewWithRefreshLoadMore',
+        ':CustomView:FlowLayout',
+        ':CustomView:RotationViews',
+        ':CustomView:FloatBobble',
+        ':CustomView:RedPacket',
+        ':CustomView:CustomView_Circle',
+        ':CustomView:SnowView',
+        ':CustomView:ViewPagerAuto',
+        ':CustomView:ExpandableListViewWithGrideView',
+        ':CustomView:HeartToHeart',
+        ':CustomView:ImagePicker'
+
+
+include ':Animation:AnimationView'

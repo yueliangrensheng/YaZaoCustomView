@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FloatBobble</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="permission_camera_rationale">System_alert_window permission is needed to show the camera preview.</string>
+
+</resources>
